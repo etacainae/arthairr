@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ArtHair</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header-wrap">
+				<div class="topbar">
+					<div class="topbar__left">
+						<div class="topbar__item topbar__social-links">
+							<a class="instagram" href="#">
+								<img src="img/icons/instagram.svg" alt="">
+							</a>
+							<a class="facebook" href="#">
+								<img src="img/icons/facebook.svg" alt="">
+							</a>
+							<a class="youtube" href="#">
+								<img src="img/icons/youtube.svg" alt="">
+							</a>
+						</div>
+						<div class="topbar__item topbar__location">
+							<a href="#">Астраханский пер. 1/15</a>
+						</div>
+						<div class="topbar__item topbar__phone">
+							<a href="tel:+74955045430">+ 7 (495) 504 54 30</a>
+							<a class="whatsapp" href="https://wa.me/15551234567">
+								<img src="img/icons/whatsapp.svg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="topbar__right">
+						<form class="topbar__item topbar__search">
+							<input class="topbar__search-input" type="text" placeholder="поиск по сайту…">
+							<button type="submit" class="topbar__search-btn"></button>
+						</form>
+						<div class="topbar__item topbar__account">
+							<div class="topbar__account__btn">
+								<img src="img/icons/account.svg" alt="">
+								<span class="mobile">Личный кабинет</span>
+							</div>
+							<div class="submenu">
+								<div class="login-btn">Войти в кабинет</div>
+								<div class="signup-btn">Зарегистрироваться</div>
+							</div>
+						</div>
+						<div class="topbar__item cart">
+							<div class="cart__counter">3</div>
+						</div>
+					</div>
+				</div>
+				<div class="navigation">
+					<a class="mobile-logo logo" href="#">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<div class="close"></div>
+					<form class="search-form">
+						<button class="search-btn"></button>
+						<input type="text" placeholder="Поиск по сайту…">
+					</form>
+					<nav class="nav-menu">
+						<ul>
+							<li class="main-page dot">
+								<a href="#">Главная</a>
+							</li>
+							<li class="dot">
+								<a href="#">Наращивание волос</a>
+							</li>
+							<li>
+								<a class="with-submenu">Услуги</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a class="with-submenu">Цены</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<a class="logo" href="#">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<nav class="nav-menu">
+						<ul>
+							<li class="new">
+								<a class="with-submenu">Интернет-магазин</a>
+								<div class="submenu" style="background-image: url(img/home/header-new.png);">
+									<ul class="tabs-nav">
+										<li class="active" rel="our-rulers">Наши линейки</li>
+										<li rel="accessories">Аксессуары</li>
+										<li rel="for-hairdressers">Для парикмахеров</li>
+									</ul>
+									<div class="tabs-dropdown active" id="our-rulers">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Органическая линия</a>
+											</li>
+											<li>
+												<a href="#">Органическая против выпадения волос</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Gold Line</a>
+											</li>
+											<li>
+												<a href="#">Gold Line для <br>мужчин</a>
+											</li>
+										</ul>
+									</div>
+									<div class="tabs-dropdown" id="accessories">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Плойка</a>
+											</li>
+											<li>
+												<a href="#">Фен</a>
+											</li>
+											<li>
+												<a href="#">Кандибобер</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Резинка для волос</a>
+											</li>
+											<li>
+												<a href="#">Расческа</a>
+											</li>
+										</ul>
+									</div>
+									<div class="tabs-dropdown" id="for-hairdressers">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Органическая линия</a>
+											</li>
+											<li>
+												<a href="#">Органическая против выпадения волос</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Gold Line</a>
+											</li>
+											<li>
+												<a href="#">Gold Line для <br>мужчин</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a class="with-submenu">Наши работы</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="mobile-header">
+				<div class="burger-btn">
+					<span></span>
+				</div>
+				<a class="logo" href="#">
+					<img src="img/logo.svg" alt="">
+				</a>
+				<div class="cart">
+					<div class="cart__counter">3</div>
+				</div>
+			</div>
+		</div>
+		<div class="overlay"></div>
+	</header>
+	<form class="account-popup login-popup">
+		<div class="close"></div>
+		<h3>Авторизация</h3>
+		<label class="form-input">
+			<span class="title">E-mail<span class="required">*</span>:</span>
+			<input name="phone" type="email" required>
+		</label>
+		<label class="form-input label-password">
+			<span class="title">пароль<span class="required">*</span>:</span>
+			<input name="password" type="password" required>
+			<span class="show-password"></span>
+		</label>
+		<label class="personal-data-processing">
+			<input type="checkbox" required>
+			<span class="checkbox-el"></span>
+			<p>Я соглашаюсь на обработку персональных данных</p>
+		</label>
+		<button type="submit" class="main-btn">Авторизироваться</button>
+	</form>
+	<form class="account-popup signup-popup">
+		<div class="close"></div>
+		<h3>Регистрация</h3>
+		<label class="form-input">
+			<span class="title">Ваше имя<span class="required">*</span>:</span>
+			<input name="name" type="text" required>
+		</label>
+		<label class="form-input">
+			<span class="title">E-mail<span class="required">*</span>:</span>
+			<input name="phone" type="email" required>
+		</label>
+		<label class="form-input label-password">
+			<span class="title">пароль<span class="required">*</span>:</span>
+			<input name="password" type="password" required>
+			<span class="show-password"></span>
+		</label>
+		<label class="personal-data-processing">
+			<input type="checkbox" required>
+			<span class="checkbox-el"></span>
+			<p>Я соглашаюсь на обработку персональных данных</p>
+		</label>
+		<button type="submit" class="main-btn">Зарегистрироваться</button>
+	</form>
+	<main>
+		<nav class="breadcrumbs" style="">
+			<ul>
+				<li>
+					<a href="#">Главная</a>
+				</li>
+				<li>
+					<a href="#">Услуги</a>
+				</li>
+				<li>
+					<a href="#">Ногтевой-spa сервис</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="service-cost">
+			<div class="container">
+				<h1 class="main-title">Цены</h1>
+				<div class="service-price">
+					<div class="service-price-banner" style="background-image: url(img/service-price-banner/service-price-banner2.png);">
+						<h3>Парикмахерские услуги</h3>
+					</div>
+					<div class="service-price__table">
+						<div class="service-price__table__header">
+							<div class="service-price__table__name">Стрижки</div>
+							<select>
+								<option value="size1">1 длина</option>
+								<option value="size2">2 длина</option>
+								<option value="size3">3 длина</option>
+							</select>
+							<div class="service-price__table__price">1 длина</div>
+							<div class="service-price__table__price">2 длина</div>
+							<div class="service-price__table__price">3 длина</div>
+						</div>
+						<div class="service-price__table__item">
+							<div class="service-price__table__name">Стрижка женская</div>
+							<div id="size1" class="service-price__table__price">
+								<div class="price">1 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size2" class="service-price__table__price">
+								<div class="price">2 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size3" class="service-price__table__price">
+								<div class="price">3 500<span class="currency">RUB</span></div>
+							</div>
+						</div>
+						<div class="service-price__table__item">
+							<div class="service-price__table__name">Стрижка чёлки </div>
+							<div id="size1" class="service-price__table__price">
+								<div class="price">1 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size2" class="service-price__table__price">
+								<div class="price">2 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size3" class="service-price__table__price">
+							</div>
+						</div>
+						<div class="service-price__table__item">
+							<div class="service-price__table__name">Стрижка кончиков</div>
+							<div id="size1" class="service-price__table__price">
+								<div class="price">1 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size2" class="service-price__table__price">
+								<div class="price">2 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size3" class="service-price__table__price">
+							</div>
+						</div>
+						<div class="service-price__table__item">
+							<div class="service-price__table__name">Полировка волос</div>
+							<div id="size1" class="service-price__table__price">
+								<div class="price">1 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size2" class="service-price__table__price">
+								<div class="price">2 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size3" class="service-price__table__price">
+								<div class="price">3 500<span class="currency">RUB</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="service-price__table">
+						<div class="service-price__table__header">
+							<div class="service-price__table__name">Окрашивание</div>
+							<select>
+								<option value="size1">1 длина</option>
+								<option value="size2">2 длина</option>
+								<option value="size3">3 длина</option>
+							</select>
+						</div>
+						<div class="service-price__table__item">
+							<div class="service-price__table__name">Окрашивание в один тон</div>
+							<div id="size1" class="service-price__table__price">
+								<div class="price">1 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size2" class="service-price__table__price">
+								<div class="price">2 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size3" class="service-price__table__price">
+								<div class="price">3 500<span class="currency">RUB</span></div>
+							</div>
+						</div>
+						<div class="service-price__table__item">
+							<div class="service-price__table__name">Балаяж</div>
+							<div id="size1" class="service-price__table__price">
+								<div class="price">1 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size2" class="service-price__table__price">
+								<div class="price">2 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size3" class="service-price__table__price">
+								<div class="price">3 500<span class="currency">RUB</span></div>
+							</div>
+						</div>
+						<div class="service-price__table__item">
+							<div class="service-price__table__name">Шатуш</div>
+							<div id="size1" class="service-price__table__price">
+								<div class="price">1 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size2" class="service-price__table__price">
+								<div class="price">2 500<span class="currency">RUB</span></div>
+							</div>
+							<div id="size3" class="service-price__table__price">
+								<div class="price">3 500<span class="currency">RUB</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="choose-us">
+			<div class="container">
+				<h2 class="main-title">Нас выбирают</h2>
+				<div class="choose-us-slider">
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us1.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us1.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Усманова</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us2.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us2.png);"></div>
+						<div class="choose-us-slider__item__name">Юлия Ефременкова</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us3.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us3.png);"></div>
+						<div class="choose-us-slider__item__name">Анжелика Агурбаш</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us4.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us4.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Гусева</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us1.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us1.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Усманова</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us1.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us1.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Усманова</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us1.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us1.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Усманова</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us1.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us1.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Усманова</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="choose-us-slider__item__popup">
+			<div class="close"></div>
+			<div class="choose-us-slider__item__popup__image image-before" style="background-image: url(img/home/customer-before.png);">
+				<span>до</span>
+			</div>
+			<div class="choose-us-slider__item__popup__image image-after" style="background-image: url(img/home/customer-after.png);">
+				<span>после</span>
+			</div>
+			<div class="choose-us-slider__item__popup__text">
+				<h4>Юлия Ефременкова</h4>
+				<a href="https://www.instagram.com/efremenkovvva/" class="link">@efremenkovvva</a>
+				<div class="procedure">
+					<span class="comment">ПРОЦЕДУРА:</span>
+					<span class="title">
+						Наращивание волос по <br>
+						технологии Diamond Hair
+					</span>
+				</div>
+				<a href="#" class="main-btn">ХОЧУ ТАК ЖЕ!</a>
+			</div>
+		</div>
+		<section id="contact-form">
+			<div class="container">
+				<div class="contact-form-wrap">
+					<form class="contact-form">
+						<h3>Записаться в салон</h3>
+						<label class="text-input">
+							<span class="title">Ваше имя<span class="required">*</span>:</span>
+							<input name="name" type="text" required>
+						</label>
+						<label class="text-input">
+							<span class="title">Телефон<span class="required">*</span>:</span>
+							<input name="phone" type="tel" required>
+						</label>
+						<label class="text-input textarea">
+							<span class="title">Сообщение:</span>
+							<textarea></textarea>
+						</label>
+						<button type="submit" class="main-btn">Получить консультацию</button>
+						<label class="personal-data-processing">
+							<input type="checkbox" required>
+							<span class="checkbox-el"></span>
+							<p>Я соглашаюсь на обработку персональных данных</p>
+						</label>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<a href="#" class="mobile-logo">
+				<img src="img/logo-white.svg" alt="">
+			</a>
+			<div class="footer-col logo-col">
+				<a href="#" class="logo">
+					<img src="img/logo-white.svg" alt="">
+				</a>
+				<div class="copyright">©2020 Arthair <span>|</span> All rights reserved</div>
+				<a href="#" class="developer">Designed by ITmaestro</a>
+			</div>
+			<hr>
+			<div class="menu-btn">Меню сайта</div>
+			<div class="footer-col menu-col">
+				<ul class="footer-menu">
+					<li>
+						<a href="#">Наращивание волос</a>
+					</li>
+					<li>
+						<a href="#">Интернет-магазин</a>
+					</li>
+					<li>
+						<a href="#">Услуги</a>
+					</li>
+					<li>
+						<a href="#">Цены</a>
+					</li>
+				</ul>
+			</div>
+			<hr>
+			<div class="footer-col menu-col">
+				<ul class="footer-menu">
+					<li>
+						<a href="#">Наши работы</a>
+					</li>
+					<li>
+						<a href="#">Доставка и оплата</a>
+					</li>
+					<li>
+						<a href="#">FAQs</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<hr>
+			<div class="footer-col contacts-info">
+				<div class="location-phones">
+					<a href="#" class="location">Москва, Астраханский переулок 1/5</a>
+					<div class="phones">
+						<a href="#">+ 7 (495) 504 54 30</a>
+						<a href="#">+ 7 (495) 504 54 30</a>
+					</div>
+				</div>
+				<div class="social-links">
+					<a class="instagram" href="#">
+						<img src="img/icons/instagram-white.svg" alt="">
+					</a>
+					<a class="facebook" href="#">
+						<img src="img/icons/facebook-white.svg" alt="">
+					</a>
+					<a class="youtube" href="#">
+						<img src="img/icons/youtube-white.svg" alt="">
+					</a>
+					<hr>
+					<a class="whatsapp" href="https://wa.me/15551234567">
+						<img src="img/icons/whatsapp-white.svg" alt="">
+						WhatsApp
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

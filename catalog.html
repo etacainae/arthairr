@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ArtHair</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header-wrap">
+				<div class="topbar">
+					<div class="topbar__left">
+						<div class="topbar__item topbar__social-links">
+							<a class="instagram" href="#">
+								<img src="img/icons/instagram.svg" alt="">
+							</a>
+							<a class="facebook" href="#">
+								<img src="img/icons/facebook.svg" alt="">
+							</a>
+							<a class="youtube" href="#">
+								<img src="img/icons/youtube.svg" alt="">
+							</a>
+						</div>
+						<div class="topbar__item topbar__location">
+							<a href="#">Астраханский пер. 1/15</a>
+						</div>
+						<div class="topbar__item topbar__phone">
+							<a href="tel:+74955045430">+ 7 (495) 504 54 30</a>
+							<a class="whatsapp" href="https://wa.me/15551234567">
+								<img src="img/icons/whatsapp.svg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="topbar__right">
+						<form class="topbar__item topbar__search">
+							<input class="topbar__search-input" type="text" placeholder="поиск по сайту…">
+							<button type="submit" class="topbar__search-btn"></button>
+						</form>
+						<div class="topbar__item topbar__account">
+							<div class="topbar__account__btn">
+								<img src="img/icons/account.svg" alt="">
+								<span class="mobile">Личный кабинет</span>
+							</div>
+							<div class="submenu">
+								<div class="login-btn">Войти в кабинет</div>
+								<div class="signup-btn">Зарегистрироваться</div>
+							</div>
+						</div>
+						<div class="topbar__item cart">
+							<div class="cart__counter">3</div>
+						</div>
+					</div>
+				</div>
+				<div class="navigation">
+					<a class="mobile-logo logo" href="#">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<div class="close"></div>
+					<form class="search-form">
+						<button class="search-btn"></button>
+						<input type="text" placeholder="Поиск по сайту…">
+					</form>
+					<nav class="nav-menu">
+						<ul>
+							<li class="main-page dot">
+								<a href="#">Главная</a>
+							</li>
+							<li class="dot">
+								<a href="#">Наращивание волос</a>
+							</li>
+							<li>
+								<a class="with-submenu">Услуги</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a class="with-submenu">Цены</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<a class="logo" href="#">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<nav class="nav-menu">
+						<ul>
+							<li class="new">
+								<a class="with-submenu">Интернет-магазин</a>
+								<div class="submenu" style="background-image: url(img/home/header-new.png);">
+									<ul class="tabs-nav">
+										<li class="active" rel="our-rulers">Наши линейки</li>
+										<li rel="accessories">Аксессуары</li>
+										<li rel="for-hairdressers">Для парикмахеров</li>
+									</ul>
+									<div class="tabs-dropdown active" id="our-rulers">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Органическая линия</a>
+											</li>
+											<li>
+												<a href="#">Органическая против выпадения волос</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Gold Line</a>
+											</li>
+											<li>
+												<a href="#">Gold Line для <br>мужчин</a>
+											</li>
+										</ul>
+									</div>
+									<div class="tabs-dropdown" id="accessories">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Плойка</a>
+											</li>
+											<li>
+												<a href="#">Фен</a>
+											</li>
+											<li>
+												<a href="#">Кандибобер</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Резинка для волос</a>
+											</li>
+											<li>
+												<a href="#">Расческа</a>
+											</li>
+										</ul>
+									</div>
+									<div class="tabs-dropdown" id="for-hairdressers">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Органическая линия</a>
+											</li>
+											<li>
+												<a href="#">Органическая против выпадения волос</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Gold Line</a>
+											</li>
+											<li>
+												<a href="#">Gold Line для <br>мужчин</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a class="with-submenu">Наши работы</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="mobile-header">
+				<div class="burger-btn">
+					<span></span>
+				</div>
+				<a class="logo" href="#">
+					<img src="img/logo.svg" alt="">
+				</a>
+				<div class="cart">
+					<div class="cart__counter">3</div>
+				</div>
+			</div>
+		</div>
+		<div class="overlay"></div>
+	</header>
+	<form class="account-popup login-popup">
+		<div class="close"></div>
+		<h3>Авторизация</h3>
+		<label class="form-input">
+			<span class="title">E-mail<span class="required">*</span>:</span>
+			<input name="phone" type="email" required>
+		</label>
+		<label class="form-input label-password">
+			<span class="title">пароль<span class="required">*</span>:</span>
+			<input name="password" type="password" required>
+			<span class="show-password"></span>
+		</label>
+		<label class="personal-data-processing">
+			<input type="checkbox" required>
+			<span class="checkbox-el"></span>
+			<p>Я соглашаюсь на обработку персональных данных</p>
+		</label>
+		<button type="submit" class="main-btn">Авторизироваться</button>
+	</form>
+	<form class="account-popup signup-popup">
+		<div class="close"></div>
+		<h3>Регистрация</h3>
+		<label class="form-input">
+			<span class="title">Ваше имя<span class="required">*</span>:</span>
+			<input name="name" type="text" required>
+		</label>
+		<label class="form-input">
+			<span class="title">E-mail<span class="required">*</span>:</span>
+			<input name="phone" type="email" required>
+		</label>
+		<label class="form-input label-password">
+			<span class="title">пароль<span class="required">*</span>:</span>
+			<input name="password" type="password" required>
+			<span class="show-password"></span>
+		</label>
+		<label class="personal-data-processing">
+			<input type="checkbox" required>
+			<span class="checkbox-el"></span>
+			<p>Я соглашаюсь на обработку персональных данных</p>
+		</label>
+		<button type="submit" class="main-btn">Зарегистрироваться</button>
+	</form>
+	<main>
+		<nav class="breadcrumbs">
+			<ul>
+				<li>
+					<a href="#">Главная</a>
+				</li>
+				<li>
+					<a href="#">Косметика для волос</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="catalog">
+			<div class="container">
+				<h1 class="main-title">Косметика для волос</h1>
+				<div class="products">
+					<div class="banner-item" style="background-image: url(img/catalog/banner.png);">
+						<div class="text-wrap">
+							<div class="banner-item__number"><span>-</span>20%</div>
+							<div class="banner-item__text">при покупке всей уходовой серии</div>
+							<a href="#" class="banner-item__link">Подробнее</a>
+						</div>
+					</div>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/1.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+								вьющихся волос 250 ml
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+							<div class="old-price">2 850</div>
+						</div>
+					</a>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/2.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+						</div>
+					</a>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/3.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+								вьющихся волос 250 ml
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+							<div class="old-price">2 850</div>
+						</div>
+					</a>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/4.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+								вьющихся волос 250 ml
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+						</div>
+					</a>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/5.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+								вьющихся волос 250 ml
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+							<div class="old-price">2 850</div>
+						</div>
+					</a>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/6.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+								вьющихся волос 250 ml
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+							<div class="old-price">2 850</div>
+						</div>
+					</a>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/7.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+								вьющихся волос 250 ml
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+							<div class="old-price">2 850</div>
+						</div>
+					</a>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/8.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+								вьющихся волос 250 ml
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+							<div class="old-price">2 850</div>
+						</div>
+					</a>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/9.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+								вьющихся волос 250 ml
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+							<div class="old-price">2 850</div>
+						</div>
+					</a>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/10.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+								вьющихся волос 250 ml
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+							<div class="old-price">2 850</div>
+						</div>
+					</a>
+					<a class="products-item" href="#">
+						<div class="products-item__image" style="background-image: url(img/catalog/11.png);"></div>
+						<div class="products-item__content">
+							<div class="product-name">
+								Натуральная маска для
+								вьющихся волос 250 ml
+							</div>
+							<div class="price">2 500 <span class="currency">RUB</span></div>
+							<div class="old-price">2 850</div>
+						</div>
+					</a>
+				</div>
+				<a href="#" class="main-btn view-more">Показать еще</a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<a href="#" class="mobile-logo">
+				<img src="img/logo-white.svg" alt="">
+			</a>
+			<div class="footer-col logo-col">
+				<a href="#" class="logo">
+					<img src="img/logo-white.svg" alt="">
+				</a>
+				<div class="copyright">©2020 Arthair <span>|</span> All rights reserved</div>
+				<a href="#" class="developer">Designed by ITmaestro</a>
+			</div>
+			<hr>
+			<div class="menu-btn">Меню сайта</div>
+			<div class="footer-col menu-col">
+				<ul class="footer-menu">
+					<li>
+						<a href="#">Наращивание волос</a>
+					</li>
+					<li>
+						<a href="#">Интернет-магазин</a>
+					</li>
+					<li>
+						<a href="#">Услуги</a>
+					</li>
+					<li>
+						<a href="#">Цены</a>
+					</li>
+				</ul>
+			</div>
+			<hr>
+			<div class="footer-col menu-col">
+				<ul class="footer-menu">
+					<li>
+						<a href="#">Наши работы</a>
+					</li>
+					<li>
+						<a href="#">Доставка и оплата</a>
+					</li>
+					<li>
+						<a href="#">FAQs</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<hr>
+			<div class="footer-col contacts-info">
+				<div class="location-phones">
+					<a href="#" class="location">Москва, Астраханский переулок 1/5</a>
+					<div class="phones">
+						<a href="#">+ 7 (495) 504 54 30</a>
+						<a href="#">+ 7 (495) 504 54 30</a>
+					</div>
+				</div>
+				<div class="social-links">
+					<a class="instagram" href="#">
+						<img src="img/icons/instagram-white.svg" alt="">
+					</a>
+					<a class="facebook" href="#">
+						<img src="img/icons/facebook-white.svg" alt="">
+					</a>
+					<a class="youtube" href="#">
+						<img src="img/icons/youtube-white.svg" alt="">
+					</a>
+					<hr>
+					<a class="whatsapp" href="https://wa.me/15551234567">
+						<img src="img/icons/whatsapp-white.svg" alt="">
+						WhatsApp
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

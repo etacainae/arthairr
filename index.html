@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ArtHair</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header-wrap">
+				<div class="topbar">
+					<div class="topbar__left">
+						<div class="topbar__item topbar__social-links">
+							<a class="instagram" href="#">
+								<img src="img/icons/instagram.svg" alt="">
+							</a>
+							<a class="facebook" href="#">
+								<img src="img/icons/facebook.svg" alt="">
+							</a>
+							<a class="youtube" href="#">
+								<img src="img/icons/youtube.svg" alt="">
+							</a>
+						</div>
+						<div class="topbar__item topbar__location">
+							<a href="#">Астраханский пер. 1/15</a>
+						</div>
+						<div class="topbar__item topbar__phone">
+							<a href="tel:+74955045430">+ 7 (495) 504 54 30</a>
+							<a class="whatsapp" href="https://wa.me/15551234567">
+								<img src="img/icons/whatsapp.svg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="topbar__right">
+						<form class="topbar__item topbar__search">
+							<input class="topbar__search-input" type="text" placeholder="поиск по сайту…">
+							<button type="submit" class="topbar__search-btn"></button>
+						</form>
+						<div class="topbar__item topbar__account">
+							<div class="topbar__account__btn">
+								<img src="img/icons/account.svg" alt="">
+								<span class="mobile">Личный кабинет</span>
+							</div>
+							<div class="submenu">
+								<div class="login-btn">Войти в кабинет</div>
+								<div class="signup-btn">Зарегистрироваться</div>
+							</div>
+						</div>
+						<div class="topbar__item cart">
+							<div class="cart__counter">3</div>
+						</div>
+					</div>
+				</div>
+				<div class="navigation">
+					<a class="mobile-logo logo" href="#">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<div class="close"></div>
+					<form class="search-form">
+						<button class="search-btn"></button>
+						<input type="text" placeholder="Поиск по сайту…">
+					</form>
+					<nav class="nav-menu">
+						<ul>
+							<li class="main-page dot">
+								<a href="#">Главная</a>
+							</li>
+							<li class="dot">
+								<a href="#">Наращивание волос</a>
+							</li>
+							<li>
+								<a class="with-submenu">Услуги</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a class="with-submenu">Цены</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<a class="logo" href="#">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<nav class="nav-menu">
+						<ul>
+							<li class="new">
+								<a class="with-submenu">Интернет-магазин</a>
+								<div class="submenu" style="background-image: url(img/home/header-new.png);">
+									<ul class="tabs-nav">
+										<li class="active" rel="our-rulers">Наши линейки</li>
+										<li rel="accessories">Аксессуары</li>
+										<li rel="for-hairdressers">Для парикмахеров</li>
+									</ul>
+									<div class="tabs-dropdown active" id="our-rulers">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Органическая линия</a>
+											</li>
+											<li>
+												<a href="#">Органическая против выпадения волос</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Gold Line</a>
+											</li>
+											<li>
+												<a href="#">Gold Line для <br>мужчин</a>
+											</li>
+										</ul>
+									</div>
+									<div class="tabs-dropdown" id="accessories">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Плойка</a>
+											</li>
+											<li>
+												<a href="#">Фен</a>
+											</li>
+											<li>
+												<a href="#">Кандибобер</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Резинка для волос</a>
+											</li>
+											<li>
+												<a href="#">Расческа</a>
+											</li>
+										</ul>
+									</div>
+									<div class="tabs-dropdown" id="for-hairdressers">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Органическая линия</a>
+											</li>
+											<li>
+												<a href="#">Органическая против выпадения волос</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Gold Line</a>
+											</li>
+											<li>
+												<a href="#">Gold Line для <br>мужчин</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a class="with-submenu">Наши работы</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="mobile-header">
+				<div class="burger-btn">
+					<span></span>
+				</div>
+				<a class="logo" href="#">
+					<img src="img/logo.svg" alt="">
+				</a>
+				<div class="cart">
+					<div class="cart__counter">3</div>
+				</div>
+			</div>
+		</div>
+		<div class="overlay"></div>
+	</header>
+	<form class="account-popup login-popup">
+		<div class="close"></div>
+		<h3>Авторизация</h3>
+		<label class="form-input">
+			<span class="title">E-mail<span class="required">*</span>:</span>
+			<input name="phone" type="email" required>
+		</label>
+		<label class="form-input label-password">
+			<span class="title">пароль<span class="required">*</span>:</span>
+			<input name="password" type="password" required>
+			<span class="show-password"></span>
+		</label>
+		<label class="personal-data-processing">
+			<input type="checkbox" required>
+			<span class="checkbox-el"></span>
+			<p>Я соглашаюсь на обработку персональных данных</p>
+		</label>
+		<button type="submit" class="main-btn">Авторизироваться</button>
+	</form>
+	<form class="account-popup signup-popup">
+		<div class="close"></div>
+		<h3>Регистрация</h3>
+		<label class="form-input">
+			<span class="title">Ваше имя<span class="required">*</span>:</span>
+			<input name="name" type="text" required>
+		</label>
+		<label class="form-input">
+			<span class="title">E-mail<span class="required">*</span>:</span>
+			<input name="phone" type="email" required>
+		</label>
+		<label class="form-input label-password">
+			<span class="title">пароль<span class="required">*</span>:</span>
+			<input name="password" type="password" required>
+			<span class="show-password"></span>
+		</label>
+		<label class="personal-data-processing">
+			<input type="checkbox" required>
+			<span class="checkbox-el"></span>
+			<p>Я соглашаюсь на обработку персональных данных</p>
+		</label>
+		<button type="submit" class="main-btn">Зарегистрироваться</button>
+	</form>
+	<main style="padding-top: 0;">
+		<section id="main">
+			<div class="container">
+				<div class="main-text">
+					<h1 class="main-title">Эксклюзивное <br>наращивание волос</h1>
+					<div class="discount">
+						<div class="discount__number"><span>-</span>50%</div>
+						<div class="discount__text">новым клиентам по технологии Diamond Hair!</div>
+					</div>
+					<a class="main-btn" href="#">Получить консультацию</a>
+				</div>
+				<div class="main-sound"></div>
+			</div>
+		</section>
+		<section id="about-us">
+			<div class="container">
+				<div class="about-technology">
+					<div class="about-technology__device">
+						<img src="img/home/device.png" alt="">
+					</div>
+					<h2 class="main-title">Технология Diamond Hair</h2>
+					<p class="about-technology__desc">
+						Lorem ipsum dolor sit amet, est iuvaret abhorreant ei, eirmod praesent pri an. Paulo repudiare repudiandae eos ut, at qui nominavi adversarium interpretaris. Sea ei dolorem, eirmod scripta liberavisse duo ad. Sea cu molestie voluptaria disputationi, viderer alterum imperdiet id usuli Eum alii copiosae in, usu alia saepe placerat cu. In duis legendos deseruisse mei, sententiae vituperatalil efficiendi et. Timeam pertinax qui ei
+						Te duo enim probo, qui no veniam soluta
+					</p>
+					<ul class="about-technology__advantages">
+						<li>
+							<svg xmlns="http://www.w3.org/2000/svg" width="30.059" height="30" viewBox="0 0 30.059 30">
+							  <path id="diamond" d="M24.893,2.832,18.735.5H11.283L5.019,2.954,0,8.019,15.011,30.5,30.059,8.018ZM8.774,13.722l2.247,6.592L5.264,11.691Zm3.888-5.5h4.691l1.289,3.509h-7.3Zm5.945,5.848-3.6,10.684L11.365,14.071Zm2.587-.351,3.653-2.12-5.92,8.845Zm5.417-5.849-5.683,3.3L19.621,7.612,24.041,5.29ZM11.724,2.842h6.583l3.119,1.179L17.882,5.883H12.137L8.6,4.064ZM5.955,5.333l4.436,2.283L9.047,11.177,3.4,7.911Z" transform="translate(0 -0.503)" fill="#c7c7c7"/>
+							</svg>
+							<span>в состав материала входит
+							алмазная пыль</span>
+						</li>
+						<li>
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+							  <path id="speedometer" d="M20.762,26.291l1.062,2.089a14.949,14.949,0,0,1-2.353.953l-.692-2.239a12.6,12.6,0,0,0,1.983-.8Zm1.821-1.128,1.4,1.881a15.124,15.124,0,0,0,1.9-1.681l-1.694-1.619a12.775,12.775,0,0,1-1.606,1.419Zm2.951-3.088,1.942,1.312a15.019,15.019,0,0,0,1.238-2.217L26.578,20.2a12.676,12.676,0,0,1-1.044,1.87Zm2.116-6.02q-.016.187-.037.373h0a12.649,12.649,0,0,1-.324,1.757l2.269.588a15,15,0,0,0,.426-2.5h0c.006-.072.012-.143.017-.215Zm.007-12.188V7.035A15.009,15.009,0,0,0,14.941,0,14.95,14.95,0,0,0,0,15,14.95,14.95,0,0,0,14.941,30h1.172V25.313H13.77V27.6a12.454,12.454,0,0,1-3.908-1.021l1.045-1.755-2.014-1.2L7.817,25.433a12.728,12.728,0,0,1-2.992-2.9l1.852-1.069-1.172-2.03L3.611,20.528A12.6,12.6,0,0,1,2.4,16.172h2.29V13.828H2.4A12.6,12.6,0,0,1,3.54,9.62l1.869,1.113,1.2-2.014L4.728,7.6A12.732,12.732,0,0,1,7.7,4.65L8.77,6.5,10.8,5.332,9.73,3.478a12.454,12.454,0,0,1,4.1-1.085V4.688h2.344V2.4A12.647,12.647,0,0,1,20.3,3.52L19.259,5.332,21.288,6.5l1.041-1.8a12.571,12.571,0,0,1,3.512,3.853H23.027V10.9H30V3.867Zm-6.847,6.981L19.152,9.191l-3.545,3.545a2.344,2.344,0,1,0,1.657,1.657Z" fill="#c7c7c7"/>
+							</svg>
+							<span>позволяет нарастить волосы
+							надолго</span>
+						</li>
+						<li>
+							<svg xmlns="http://www.w3.org/2000/svg" width="29.982" height="30" viewBox="0 0 29.982 30">
+							  <g id="Слой_2" data-name="Слой 2" transform="translate(0.002 -0.002)">
+							    <g id="Слой_1" data-name="Слой 1" transform="translate(-0.002 0.002)">
+							      <path id="Контур_69" data-name="Контур 69" d="M11.238,30H8.9V25.374c-.958,0-1.874,0-2.79,0a3.521,3.521,0,0,1-3.536-3.562V18.545c-.216-.029-.4-.043-.58-.078A2.461,2.461,0,0,1,.482,14.591c.909-1.21,1.811-2.422,2.729-3.623a4.564,4.564,0,0,0,.777-1.557,14.277,14.277,0,0,1,2-4.3,11.285,11.285,0,0,1,7.8-4.933A16.8,16.8,0,0,1,19.35.311,12.54,12.54,0,0,1,25.835,3.4,13.1,13.1,0,0,1,29.8,11.537c.074.528.117,1.063.179,1.595V30H27.635V14.308A15.908,15.908,0,0,0,27.1,9.965,9.569,9.569,0,0,0,21.445,3.37a14.018,14.018,0,0,0-6.419-.978A8.985,8.985,0,0,0,10.02,4.217c-.064.049-.121.107-.195.172l.272.17a11.2,11.2,0,0,1,2.872,2.469,13.136,13.136,0,0,1,2.942,8.481c.04,4.831.012,9.663.012,14.494H13.581c0-4.627.012-9.254-.012-13.88a16.1,16.1,0,0,0-.238-2.822,9.688,9.688,0,0,0-3.9-6.37c-.406-.293-.852-.528-1.272-.787a12.053,12.053,0,0,0-1.941,4,6.408,6.408,0,0,1-1.091,2.181c-.888,1.163-1.764,2.335-2.641,3.507a1.233,1.233,0,0,0-.117.274,1.467,1.467,0,0,0,.3.068c.537.006,1.073,0,1.61,0h.638v5.551a1.186,1.186,0,0,0,1.309,1.3h5.016Z" transform="translate(0.002 -0.002)" fill="#c7c7c7"/>
+							      <path id="Контур_70" data-name="Контур 70" d="M311.33,234.382V217.111h2.344v17.272Zm4.689,0V217.11h2.344v17.272Z" transform="translate(-293.065 -204.382)" fill="#c7c7c7"/>
+							    </g>
+							  </g>
+							</svg>
+							<span>предотвращает выпадение и
+							повреждение структуры</span>
+						</li>
+					</ul>
+				</div>
+				<a class="about-cosmetics" href="#">
+					<img class="about-cosmetics__image" src="img/home/about-cosmetics.jpg" alt="">
+					<div class="about-cosmetics__link">
+						<h3>Высококачественная косметика для волос</h3>
+					</div>
+					<p class="about-cosmetics__desc">
+						Lorem ipsum dolor sit amet, est iuvaret abhorreant ei, eirmod praesent pri an. Paulo repudiare repudiandae eos ut, at qui nominavi adversarium interpretaris. Sea ei dolorem habemus, eirmod scripta liberavisse duo ad
+					</p>
+				</a>
+			</div>
+		</section>
+		<section id="choose-us">
+			<div class="container">
+				<h2 class="main-title">Нас выбирают</h2>
+				<div class="choose-us-slider">
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us1.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us1.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Усманова</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us2.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us2.png);"></div>
+						<div class="choose-us-slider__item__name">Юлия Ефременкова</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us3.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us3.png);"></div>
+						<div class="choose-us-slider__item__name">Анжелика Агурбаш</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us4.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us4.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Гусева</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us1.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us1.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Усманова</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us1.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us1.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Усманова</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us1.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us1.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Усманова</div>
+					</div>
+					<div class="choose-us-slider__item">
+						<div class="choose-us-slider__item__image" style="background-image: url(img/home/choose-us1.png);">
+							<div class="gallery-btn"></div>
+						</div>
+						<div class="choose-us-slider__item__image-repeat" style="background-image: url(img/home/choose-us1.png);"></div>
+						<div class="choose-us-slider__item__name">Екатерина Усманова</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="choose-us-slider__item__popup">
+			<div class="close"></div>
+			<div class="choose-us-slider__item__popup__image image-before" style="background-image: url(img/home/customer-before.png);">
+				<span>до</span>
+			</div>
+			<div class="choose-us-slider__item__popup__image image-after" style="background-image: url(img/home/customer-after.png);">
+				<span>после</span>
+			</div>
+			<div class="choose-us-slider__item__popup__text">
+				<h4>Юлия Ефременкова</h4>
+				<a href="https://www.instagram.com/efremenkovvva/" class="link">@efremenkovvva</a>
+				<div class="procedure">
+					<span class="comment">ПРОЦЕДУРА:</span>
+					<span class="title">
+						Наращивание волос по <br>
+						технологии Diamond Hair
+					</span>
+				</div>
+				<a href="#" class="main-btn">ХОЧУ ТАК ЖЕ!</a>
+			</div>
+		</div>
+		<section id="water-services">
+			<div class="container">
+				<h2 class="main-title">Спектр услуг <br>на воде</h2>
+				<div class="water-services__content">
+					<p class="desc">
+						Эксклюзивно для Вас полный спектр услуг в салоне красоты на воде. Для вашего удобства воздушные, водные и наземные
+						парковки круглосуточно
+					</p>
+					<ul class="water-services__advantages">
+						<li>
+							<svg xmlns="http://www.w3.org/2000/svg" width="30.201" height="30.201" viewBox="0 0 30.201 30.201">
+							  <g id="fork" transform="translate(0.099 0.101)">
+							    <g id="Сгруппировать_60" data-name="Сгруппировать 60" transform="translate(18.284 0)">
+							      <g id="Сгруппировать_59" data-name="Сгруппировать 59">
+							        <path id="Контур_98" data-name="Контур 98" d="M322.206,3.472C321,1.236,319.457.005,317.86.005s-3.14,1.231-4.346,3.467A12.276,12.276,0,0,0,312,8.647v.213a5.568,5.568,0,0,0,4.687,5.331V30h2.344V14.192a5.568,5.568,0,0,0,4.687-5.331V8.647A12.275,12.275,0,0,0,322.206,3.472Zm-.83,5.389a3.544,3.544,0,0,1-7.031,0V8.647a10,10,0,0,1,1.233-4.063c.744-1.379,1.618-2.236,2.283-2.236s1.539.857,2.283,2.236a10,10,0,0,1,1.232,4.063Z" transform="translate(-312.001 -0.005)" fill="#c7c7c7" stroke="#c7c7c7" stroke-width="0.2"/>
+							      </g>
+							    </g>
+							    <g id="Сгруппировать_62" data-name="Сгруппировать 62" transform="translate(4.69 4.687)">
+							      <g id="Сгруппировать_61" data-name="Сгруппировать 61">
+							        <path id="Контур_99" data-name="Контур 99" d="M90.054,98.28a7.969,7.969,0,1,1,1.341-15.86,14.859,14.859,0,0,1,.585-2.282,10.313,10.313,0,1,0-2,20.485,10.255,10.255,0,0,0,5.965-1.668v-3A7.948,7.948,0,0,1,90.054,98.28Z" transform="translate(-80.004 -80.003)" fill="#c7c7c7" stroke="#c7c7c7" stroke-width="0.2"/>
+							      </g>
+							    </g>
+							    <g id="Сгруппировать_64" data-name="Сгруппировать 64" transform="translate(0.002 0)">
+							      <g id="Сгруппировать_63" data-name="Сгруппировать 63">
+							        <path id="Контур_100" data-name="Контур 100" d="M14.586,27.649A12.656,12.656,0,1,1,17.6,2.612c.045-.087.089-.173.135-.258a12.532,12.532,0,0,1,1.2-1.835A15.111,15.111,0,0,0,15.5.008,15,15,0,0,0,4.052,25.251a15.032,15.032,0,0,0,16.575,3.662V26.334A12.578,12.578,0,0,1,14.586,27.649Z" transform="translate(-0.002 0)" fill="#c7c7c7" stroke="#c7c7c7" stroke-width="0.2"/>
+							      </g>
+							    </g>
+							    <g id="Сгруппировать_66" data-name="Сгруппировать 66" transform="translate(27.659 14.315)">
+							      <g id="Сгруппировать_65" data-name="Сгруппировать 65">
+							        <path id="Контур_101" data-name="Контур 101" d="M474.328,244.324A8.273,8.273,0,0,1,472,245.9v7.173a14.907,14.907,0,0,0,2.336-7.567Q474.355,244.91,474.328,244.324Z" transform="translate(-472 -244.324)" fill="#c7c7c7" stroke="#c7c7c7" stroke-width="0.2"/>
+							      </g>
+							    </g>
+							  </g>
+							</svg>
+							<span>ресторан на воде</span>
+						</li>
+						<li>
+							<svg xmlns="http://www.w3.org/2000/svg" width="38.133" height="30.3" viewBox="0 0 38.133 30.3">
+							  <g id="bed" transform="translate(0.15 -52.85)">
+							    <g id="Сгруппировать_68" data-name="Сгруппировать 68" transform="translate(0 53)">
+							      <path id="Контур_102" data-name="Контур 102" d="M34.8,68.007V57.433A4.439,4.439,0,0,0,30.369,53H7.389a4.439,4.439,0,0,0-4.433,4.433v10.6A4.441,4.441,0,0,0,0,72.212V80.34H2.956V83H5.911V80.34h26.01V83h2.956V80.34h2.956V72.212A4.44,4.44,0,0,0,34.8,68.007ZM5.911,57.433a1.48,1.48,0,0,1,1.478-1.478h22.98a1.48,1.48,0,0,1,1.478,1.478V67.778H30.3V66.3a4.439,4.439,0,0,0-4.433-4.433h-3.99A4.415,4.415,0,0,0,18.916,63a4.415,4.415,0,0,0-2.956-1.133H11.823A4.439,4.439,0,0,0,7.389,66.3v1.478H5.911ZM27.34,66.3v1.478H20.394V66.3a1.48,1.48,0,0,1,1.478-1.478h3.99A1.48,1.48,0,0,1,27.34,66.3Zm-9.9,0v1.478H10.345V66.3a1.48,1.48,0,0,1,1.478-1.478h4.138A1.48,1.48,0,0,1,17.438,66.3ZM34.877,77.384H2.956V72.212a1.48,1.48,0,0,1,1.478-1.478H33.4a1.48,1.48,0,0,1,1.478,1.478Z" transform="translate(0 -53)" fill="#c7c7c7" stroke="#fff" stroke-width="0.3"/>
+							    </g>
+							  </g>
+							</svg>
+							<span>LUX апартаменты</span>
+						</li>
+						<li>
+							<svg xmlns="http://www.w3.org/2000/svg" width="42.048" height="30" viewBox="0 0 42.048 30">
+							  <path id="lotus" d="M39.749,95.009a12.866,12.866,0,0,0-3.043-2.227,14.754,14.754,0,0,0,1.532-6.563V82.765H34.679c-.137,0-.273,0-.408.006a14.154,14.154,0,0,0-.177-1.971l-.531-3.3-3.4.547a14.193,14.193,0,0,0-3.907,1.224A16.149,16.149,0,0,0,23.7,75.95l-2.6-2.6-2.679,2.679A16.162,16.162,0,0,0,15.9,79.3a14.193,14.193,0,0,0-3.977-1.256l-3.4-.547L8,80.8a14.185,14.185,0,0,0-.177,1.971c-.122,0-.245-.005-.368-.005H3.892v3.454a14.755,14.755,0,0,0,1.515,6.529A12.858,12.858,0,0,0,2.3,95.009L0,97.276l2.2,2.235a12.933,12.933,0,0,0,16.545,1.553H23.3a12.932,12.932,0,0,0,16.545-1.553l2.2-2.235Zm-3.972-9.782v.992a12.4,12.4,0,0,1-11.82,12.37,16.15,16.15,0,0,0,4.475-11.666,12.3,12.3,0,0,1,6.248-1.7Zm-5.218-4.748.966-.155.14.868a11.8,11.8,0,0,1,.15,1.854,14.726,14.726,0,0,0-3.674,1.243,16.181,16.181,0,0,0-.81-2.8,11.726,11.726,0,0,1,3.229-1.012ZM20.167,77.773l.939-.939.857.858a13.743,13.743,0,0,1,0,19.414l-.939.939-.857-.857A13.744,13.744,0,0,1,20.167,77.773ZM10.426,81.19l.14-.867.966.155a11.719,11.719,0,0,1,3.291,1.042,16.176,16.176,0,0,0-.816,2.774h0a14.7,14.7,0,0,0-3.728-1.257A11.693,11.693,0,0,1,10.426,81.19ZM6.353,85.227h1.1a12.3,12.3,0,0,1,6.251,1.7h0a16.148,16.148,0,0,0,4.391,11.661h0A12.4,12.4,0,0,1,6.353,86.219Zm-2.4,12.556L3.482,97.3l.546-.538a10.405,10.405,0,0,1,2.648-1.9,14.9,14.9,0,0,0,7.784,5.571,10.459,10.459,0,0,1-10.5-2.652Zm34.135,0a10.461,10.461,0,0,1-10.467,2.666,14.9,14.9,0,0,0,7.807-5.554,10.414,10.414,0,0,1,2.589,1.868l.546.538Z" transform="translate(0 -73.353)" fill="#c7c7c7"/>
+							</svg>
+							<span>SPA-комплекс</span>
+						</li>
+						<li>
+							<svg xmlns="http://www.w3.org/2000/svg" width="30.605" height="30.586" viewBox="0 0 30.605 30.586">
+							  <g id="seat" transform="translate(0.318 0.336)">
+							    <path id="Контур_103" data-name="Контур 103" d="M19.11,24.887A10.079,10.079,0,0,0,22.048,22l-1.463-.975a8.317,8.317,0,0,1-2.754,2.588l-1.855-1.855,3.7-10.23A4.064,4.064,0,0,1,21.2,13.249l.371.8.8-.371a4.09,4.09,0,0,1,5.439,1.98l.9,1.923.726-1.994A9.678,9.678,0,0,0,23.647,3.192l-.771-.281L23.683.706,22.073,0l-.852,2.309-.877-.319A9.679,9.679,0,0,0,7.953,7.767L7.227,9.761l1.923-.9a4.1,4.1,0,0,1,5.439,1.98l.371.8.8-.371a4.064,4.064,0,0,1,2.273-.348L14.6,20.381,1.278,7.055.035,8.3l1.944,1.944,1.843,8.349a10.116,10.116,0,0,0,3.391,5.56L2.441,28.242H.012V30h30V28.242H22.465ZM24.029,6.658a8.332,8.332,0,0,0-.167-1.465A7.914,7.914,0,0,1,28.2,13.213a5.873,5.873,0,0,0-4.865-1.631A16.687,16.687,0,0,0,24.029,6.658ZM15.191,8.618a5.878,5.878,0,0,0-4.772-1.877,7.929,7.929,0,0,1,8.475-3.357A8.338,8.338,0,0,0,17.823,4.4,16.681,16.681,0,0,0,15.191,8.618Zm1.685.539a14.67,14.67,0,0,1,2.258-3.587c.882-.986,1.769-1.508,2.261-1.329s.836,1.149.878,2.471a14.673,14.673,0,0,1-.576,4.2,5.872,5.872,0,0,0-4.82-1.754Zm-.776,15.2a8.4,8.4,0,0,1-5.959-.405l2.99-2.563ZM5.538,18.212,4.289,12.553l7.6,7.6L8.56,23A8.3,8.3,0,0,1,5.538,18.212Zm6.207,10.031h-6.6l3.569-3.059a10.139,10.139,0,0,0,3.7,1.223Zm1.871,0,.646-1.776a10.069,10.069,0,0,0,3.212-.729l2.505,2.505Z" fill="#c7c7c7" stroke="#c7c7c7" stroke-width="0.5"/>
+							  </g>
+							</svg>
+							<span>Пляжная зона</span>
+						</li>
+					</ul>
+				</div>
+				<a class="main-btn" href="#">Галерея салона</a>
+				<div class="water-services__gallery">
+					<div class="water-services__gallery__video" style="background-image: url(img/home/gallery-video-preview.jpg);">
+						<div class="video-btn" rel="water-services"></div>
+					</div>
+					<div class="water-services__gallery__wrap">
+						<div class="water-services__gallery__wrap__item" style="background-image: url(img/home/gallery1.jpg);"></div>
+						<div class="water-services__gallery__wrap__item" style="background-image: url(img/home/gallery2.jpg);"></div>
+						<div class="water-services__gallery__wrap__item" style="background-image: url(img/home/gallery3.jpg);"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="video__modal" id="water-services">
+			<iframe src="https://www.youtube.com/embed/arfcKhfbcFo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<a href="#" class="mobile-logo">
+				<img src="img/logo-white.svg" alt="">
+			</a>
+			<div class="footer-col logo-col">
+				<a href="#" class="logo">
+					<img src="img/logo-white.svg" alt="">
+				</a>
+				<div class="copyright">©2020 Arthair <span>|</span> All rights reserved</div>
+				<a href="#" class="developer">Designed by ITmaestro</a>
+			</div>
+			<hr>
+			<div class="menu-btn">Меню сайта</div>
+			<div class="footer-col menu-col">
+				<ul class="footer-menu">
+					<li>
+						<a href="#">Наращивание волос</a>
+					</li>
+					<li>
+						<a href="#">Интернет-магазин</a>
+					</li>
+					<li>
+						<a href="#">Услуги</a>
+					</li>
+					<li>
+						<a href="#">Цены</a>
+					</li>
+				</ul>
+			</div>
+			<hr>
+			<div class="footer-col menu-col">
+				<ul class="footer-menu">
+					<li>
+						<a href="#">Наши работы</a>
+					</li>
+					<li>
+						<a href="#">Доставка и оплата</a>
+					</li>
+					<li>
+						<a href="#">FAQs</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<hr>
+			<div class="footer-col contacts-info">
+				<div class="location-phones">
+					<a href="#" class="location">Москва, Астраханский переулок 1/5</a>
+					<div class="phones">
+						<a href="#">+ 7 (495) 504 54 30</a>
+						<a href="#">+ 7 (495) 504 54 30</a>
+					</div>
+				</div>
+				<div class="social-links">
+					<a class="instagram" href="#">
+						<img src="img/icons/instagram-white.svg" alt="">
+					</a>
+					<a class="facebook" href="#">
+						<img src="img/icons/facebook-white.svg" alt="">
+					</a>
+					<a class="youtube" href="#">
+						<img src="img/icons/youtube-white.svg" alt="">
+					</a>
+					<hr>
+					<a class="whatsapp" href="https://wa.me/15551234567">
+						<img src="img/icons/whatsapp-white.svg" alt="">
+						WhatsApp
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

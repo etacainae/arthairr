@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>ArtHair</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="header-wrap">
+				<div class="topbar">
+					<div class="topbar__left">
+						<div class="topbar__item topbar__social-links">
+							<a class="instagram" href="#">
+								<img src="img/icons/instagram.svg" alt="">
+							</a>
+							<a class="facebook" href="#">
+								<img src="img/icons/facebook.svg" alt="">
+							</a>
+							<a class="youtube" href="#">
+								<img src="img/icons/youtube.svg" alt="">
+							</a>
+						</div>
+						<div class="topbar__item topbar__location">
+							<a href="#">Астраханский пер. 1/15</a>
+						</div>
+						<div class="topbar__item topbar__phone">
+							<a href="tel:+74955045430">+ 7 (495) 504 54 30</a>
+							<a class="whatsapp" href="https://wa.me/15551234567">
+								<img src="img/icons/whatsapp.svg" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="topbar__right">
+						<form class="topbar__item topbar__search">
+							<input class="topbar__search-input" type="text" placeholder="поиск по сайту…">
+							<button type="submit" class="topbar__search-btn"></button>
+						</form>
+						<div class="topbar__item topbar__account">
+							<div class="topbar__account__btn">
+								<img src="img/icons/account.svg" alt="">
+								<span class="mobile">Личный кабинет</span>
+							</div>
+							<div class="submenu">
+								<div class="login-btn">Войти в кабинет</div>
+								<div class="signup-btn">Зарегистрироваться</div>
+							</div>
+						</div>
+						<div class="topbar__item cart">
+							<div class="cart__counter">3</div>
+						</div>
+					</div>
+				</div>
+				<div class="navigation">
+					<a class="mobile-logo logo" href="#">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<div class="close"></div>
+					<form class="search-form">
+						<button class="search-btn"></button>
+						<input type="text" placeholder="Поиск по сайту…">
+					</form>
+					<nav class="nav-menu">
+						<ul>
+							<li class="main-page dot">
+								<a href="#">Главная</a>
+							</li>
+							<li class="dot">
+								<a href="#">Наращивание волос</a>
+							</li>
+							<li>
+								<a class="with-submenu">Услуги</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a class="with-submenu">Цены</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+					<a class="logo" href="#">
+						<img src="img/logo.svg" alt="">
+					</a>
+					<nav class="nav-menu">
+						<ul>
+							<li class="new">
+								<a class="with-submenu">Интернет-магазин</a>
+								<div class="submenu" style="background-image: url(img/home/header-new.png);">
+									<ul class="tabs-nav">
+										<li class="active" rel="our-rulers">Наши линейки</li>
+										<li rel="accessories">Аксессуары</li>
+										<li rel="for-hairdressers">Для парикмахеров</li>
+									</ul>
+									<div class="tabs-dropdown active" id="our-rulers">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Органическая линия</a>
+											</li>
+											<li>
+												<a href="#">Органическая против выпадения волос</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Gold Line</a>
+											</li>
+											<li>
+												<a href="#">Gold Line для <br>мужчин</a>
+											</li>
+										</ul>
+									</div>
+									<div class="tabs-dropdown" id="accessories">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Плойка</a>
+											</li>
+											<li>
+												<a href="#">Фен</a>
+											</li>
+											<li>
+												<a href="#">Кандибобер</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Резинка для волос</a>
+											</li>
+											<li>
+												<a href="#">Расческа</a>
+											</li>
+										</ul>
+									</div>
+									<div class="tabs-dropdown" id="for-hairdressers">
+										<div class="header-tabs-close"></div>
+										<ul>
+											<li>
+												<a href="#">Органическая линия</a>
+											</li>
+											<li>
+												<a href="#">Органическая против выпадения волос</a>
+											</li>
+										</ul>
+										<ul>
+											<li>
+												<a href="#">Gold Line</a>
+											</li>
+											<li>
+												<a href="#">Gold Line для <br>мужчин</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a class="with-submenu">Наши работы</a>
+								<div class="submenu">
+									<ul>
+										<li>
+											<a href="#">Парикмахерские услуги</a>
+										</li>
+										<li>
+											<a href="#">Ногтевой сервис</a>
+										</li>
+										<li>
+											<a href="#">SPA-комплекс услуг</a>
+										</li>
+										<li>
+											<a href="#">Косметология</a>
+										</li>
+										<li>
+											<a href="#">Наращивание ресниц</a>
+										</li>
+										<li>
+											<a href="#">Услуги визажиста</a>
+										</li>
+									</ul>
+									<ul>
+										<li>
+											<a href="#">Фитнес - зона</a>
+										</li>
+										<li>
+											<a href="#">Ресторан на воде</a>
+										</li>
+										<li>
+											<a href="#">LUX апартаменты на воде</a>
+										</li>
+										<li>
+											<a href="#">Пляжная зона для отдыха</a>
+										</li>
+										<li>
+											<a href="#">Концертные мероприятия</a>
+										</li>
+										<li>
+											<a href="#">Воздушная и водная парковка</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="mobile-header">
+				<div class="burger-btn">
+					<span></span>
+				</div>
+				<a class="logo" href="#">
+					<img src="img/logo.svg" alt="">
+				</a>
+				<div class="cart">
+					<div class="cart__counter">3</div>
+				</div>
+			</div>
+		</div>
+		<div class="overlay"></div>
+	</header>
+	<form class="account-popup login-popup">
+		<div class="close"></div>
+		<h3>Авторизация</h3>
+		<label class="form-input">
+			<span class="title">E-mail<span class="required">*</span>:</span>
+			<input name="phone" type="email" required>
+		</label>
+		<label class="form-input label-password">
+			<span class="title">пароль<span class="required">*</span>:</span>
+			<input name="password" type="password" required>
+			<span class="show-password"></span>
+		</label>
+		<label class="personal-data-processing">
+			<input type="checkbox" required>
+			<span class="checkbox-el"></span>
+			<p>Я соглашаюсь на обработку персональных данных</p>
+		</label>
+		<button type="submit" class="main-btn">Авторизироваться</button>
+	</form>
+	<form class="account-popup signup-popup">
+		<div class="close"></div>
+		<h3>Регистрация</h3>
+		<label class="form-input">
+			<span class="title">Ваше имя<span class="required">*</span>:</span>
+			<input name="name" type="text" required>
+		</label>
+		<label class="form-input">
+			<span class="title">E-mail<span class="required">*</span>:</span>
+			<input name="phone" type="email" required>
+		</label>
+		<label class="form-input label-password">
+			<span class="title">пароль<span class="required">*</span>:</span>
+			<input name="password" type="password" required>
+			<span class="show-password"></span>
+		</label>
+		<label class="personal-data-processing">
+			<input type="checkbox" required>
+			<span class="checkbox-el"></span>
+			<p>Я соглашаюсь на обработку персональных данных</p>
+		</label>
+		<button type="submit" class="main-btn">Зарегистрироваться</button>
+	</form>
+	<main style="padding-bottom: 0;">
+		<nav class="breadcrumbs">
+			<ul>
+				<li>
+					<a href="#">Главная</a>
+				</li>
+				<li>
+					<a href="#">Контакты</a>
+				</li>
+			</ul>
+		</nav>
+		<section id="contacts">
+			<div class="container">
+				<h1 class="main-title">Контакты</h1>
+				<div class="contacts-wrap">
+					<div class="contacts-wrap__item">
+						<h5 class="title">
+							<img src="img/icons/location-contacts.svg" alt="">
+							Наш адрес:
+						</h5>
+						<a class="link" href="https://goo.gl/maps/dwrJvbQk1QgDqski7">Москва, Астраханский переулок 1/5</a>
+						<span class="gray metro">Проспект Мира</span>
+					</div>
+					<div class="contacts-wrap__item">
+						<h5 class="title">
+							<img src="img/icons/phone-contacts.svg" alt="">
+							ТЕЛЕФОНЫ:
+						</h5>
+						<a class="link" href="tel:+74955045430">+ 7 (495) 504 54 30</a>
+						<hr>
+						<a class="link" href="tel:+79151543720">+7 (915) 154 37 20</a>
+					</div>
+					<div class="contacts-wrap__item">
+						<h5 class="title">
+							<img src="img/icons/email.svg" alt="">
+							Наши e-mail:
+						</h5>
+						<a class="link" href="mailto:arthair@info.ru">arthair@info.ru</a>
+						<hr>
+						<a class="link" href="tel:arthair@partner.ru">arthair@partner.ru</a>
+					</div>
+					<div class="contacts-wrap__item schedule">
+						<h5 class="title">
+							<img src="img/icons/clock.svg" alt="">
+							Часы работы:
+						</h5>
+						<div class="link">с 10<span>00</span> до 22<span>00</span></div>
+						<hr>
+						<span class="gray">ежедневно</span>
+					</div>
+					<div class="contacts-wrap__item soc-networks">
+						<h5 class="title">Оставайтесь с нами:</h5>
+						<div class="soc-networks__wrap">
+							<a href="#">
+								<img src="img/icons/instagram.svg" alt="">
+							</a>
+							<a href="#">
+								<img src="img/icons/facebook.svg" alt="">
+							</a>
+							<a href="#">
+								<img src="img/icons/vk.svg" alt="">
+							</a>
+							<a href="#">
+								<img src="img/icons/youtube.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contacts-form">
+			<div class="container">
+				<form class="contacts-form">
+					<h3>Нужна помощь?</h3>
+					<label class="text-input">
+						<span class="title">Ваше имя<span class="required">*</span>:</span>
+						<input name="name" type="text" required>
+					</label>
+					<label class="text-input">
+						<span class="title">E-mail<span class="required">*</span>:</span>
+						<input name="email" type="email" required>
+					</label>
+					<label class="text-input">
+						<span class="title">Телефон:</span>
+						<input name="phone" type="tel" required>
+					</label>
+					<label class="personal-data-processing">
+						<input type="checkbox" required>
+						<span class="checkbox-el"></span>
+						<p>Я соглашаюсь на обработку персональных данных</p>
+					</label>
+					<button type="submit" class="main-btn">Получить консультацию</button>
+				</form>
+			</div>
+			<div id="contacts-map"></div>
+		</section>
+	</main>
+	<footer>
+		<div class="container">
+			<a href="#" class="mobile-logo">
+				<img src="img/logo-white.svg" alt="">
+			</a>
+			<div class="footer-col logo-col">
+				<a href="#" class="logo">
+					<img src="img/logo-white.svg" alt="">
+				</a>
+				<div class="copyright">©2020 Arthair <span>|</span> All rights reserved</div>
+				<a href="#" class="developer">Designed by ITmaestro</a>
+			</div>
+			<hr>
+			<div class="menu-btn">Меню сайта</div>
+			<div class="footer-col menu-col">
+				<ul class="footer-menu">
+					<li>
+						<a href="#">Наращивание волос</a>
+					</li>
+					<li>
+						<a href="#">Интернет-магазин</a>
+					</li>
+					<li>
+						<a href="#">Услуги</a>
+					</li>
+					<li>
+						<a href="#">Цены</a>
+					</li>
+				</ul>
+			</div>
+			<hr>
+			<div class="footer-col menu-col">
+				<ul class="footer-menu">
+					<li>
+						<a href="#">Наши работы</a>
+					</li>
+					<li>
+						<a href="#">Доставка и оплата</a>
+					</li>
+					<li>
+						<a href="#">FAQs</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<hr>
+			<div class="footer-col contacts-info">
+				<div class="location-phones">
+					<a href="#" class="location">Москва, Астраханский переулок 1/5</a>
+					<div class="phones">
+						<a href="#">+ 7 (495) 504 54 30</a>
+						<a href="#">+ 7 (495) 504 54 30</a>
+					</div>
+				</div>
+				<div class="social-links">
+					<a class="instagram" href="#">
+						<img src="img/icons/instagram-white.svg" alt="">
+					</a>
+					<a class="facebook" href="#">
+						<img src="img/icons/facebook-white.svg" alt="">
+					</a>
+					<a class="youtube" href="#">
+						<img src="img/icons/youtube-white.svg" alt="">
+					</a>
+					<hr>
+					<a class="whatsapp" href="https://wa.me/15551234567">
+						<img src="img/icons/whatsapp-white.svg" alt="">
+						WhatsApp
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script>
+		var map, popup, Popup;
+
+		/** Initializes the map and the custom popup. */
+		function initMap() {
+		var posCenter = {lat: 55.776543, lng: 37.642376};
+		var posMarker = {lat: 55.776543, lng: 37.652977};
+		var check = document.getElementById('contacts-map').offsetWidth;
+		if (check < 1200) {
+			posCenter = {lat: 55.776543, lng: 37.649123};
+		}
+		if (check < 993) {
+			posMarker = {lat: 55.778543, lng: 37.649123};
+		}
+		var map = new google.maps.Map(document.getElementById('contacts-map'),
+		 {
+		center: posCenter,
+		zoom: 16,
+        streetViewControl: false,
+        fullscreenControl: false,
+		mapTypeControl: false,
+		styles: [
+		  {
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#f5f5f5"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "geometry.fill",
+		    "stylers": [
+		      {
+		        "visibility": "on"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "labels.icon",
+		    "stylers": [
+		      {
+		        "visibility": "off"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#616161"
+		      }
+		    ]
+		  },
+		  {
+		    "elementType": "labels.text.stroke",
+		    "stylers": [
+		      {
+		        "color": "#f5f5f5"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "administrative.land_parcel",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#bdbdbd"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#eeeeee"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#757575"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.park",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#e5e5e5"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "poi.park",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#9e9e9e"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#ffffff"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.arterial",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#757575"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.highway",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#dadada"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.highway",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#616161"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "road.local",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#9e9e9e"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "transit.line",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#e5e5e5"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "transit.station",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#eeeeee"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "water",
+		    "elementType": "geometry",
+		    "stylers": [
+		      {
+		        "color": "#c9c9c9"
+		      }
+		    ]
+		  },
+		  {
+		    "featureType": "water",
+		    "elementType": "labels.text.fill",
+		    "stylers": [
+		      {
+		        "color": "#9e9e9e"
+		      }
+		    ]
+		  }
+		]
+		});
+		var image = {
+		    url: 'img/icons/map-marker.svg',
+		    scaledSize: new google.maps.Size(240, 180),
+		}
+		marker = new google.maps.Marker({
+		    position: posMarker,
+		    map: map,
+    		icon: image,
+    		optimized: false,
+		});
+		}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD57b1klhTcVUYoGhkOf2h1ck2SKmTvNSQ&amp;callback=initMap" async="" defer=""></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.283" height="20.429" viewBox="0 0 14.283 20.429">
+  <g id="Компонент_5_1" data-name="Компонент 5 – 1" transform="translate(0.141 0.138)">
+    <path id="arrow-right-solid" d="M15.176,6.781,14.085,7.873l5.149,5.149H4v1.519H19.234L14.085,19.69l1.092,1.092,6.454-6.454.522-.546-.522-.546Z" transform="translate(20.781 -2) rotate(90)" fill="#c7c7c7" stroke="#c7c7c7" stroke-width="0.2"/>
+    <path id="arrow-right-solid-2" data-name="arrow-right-solid" d="M11.176,14l-1.092-1.092,5.149-5.149H0V6.241H15.234L10.085,1.092,11.176,0,17.63,6.454,18.152,7l-.522.546Z" transform="translate(0 18.152) rotate(-90)" fill="#c7c7c7" stroke="#c7c7c7" stroke-width="0.2"/>
+  </g>
+</svg>
